@@ -1,0 +1,139 @@
+.container {
+    position: relative;
+}
+
+.font {
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+}
+
+.text {
+    position: absolute;
+    top: 20vh;
+    right: 20vw;
+}
+
+.order-now {
+    font-family: 'Baloo 2', cursive;
+    border-radius: 26px;
+    background-color: red;
+    color: aliceblue;
+    padding: 9px 60px;
+    border: 1px white solid;
+    font-weight: bold;
+
+}
+
+.order-now:hover {
+    background-color: rgb(209, 0, 0);
+
+}
+
+.choose_enjoy {
+    font-family: 'Baloo 2', cursive;
+    font-size: 30px;
+    /* font-weight: bold; */
+    font-family: 'Bubblegum Sans', cursive;
+
+}
+
+.card_img {
+
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    height: auto;
+}
+
+.card_img:hover {
+    border-color: red;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    
+}
+
+.image_size:hover {
+    width: 15vw;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .order-now {
+        display: none;
+    }
+
+    .choose_enjoy {
+        /* font-family: 'Baloo 2', cursive; */
+        font-size: 30px;
+        /* font-weight: bold; */
+        font-family: 'Bubblegum Sans', cursive;
+    }
+
+    .pc_tab {
+        display: none;
+    }
+
+    .font {
+        font-size: 12px;
+    }
+
+    .east_icon {
+        display: none;
+    }
+
+    .card_text {
+        font-size: 12px;
+        font-family: 'Baloo 2', cursive;
+
+    }
+
+    .card_e {
+        height: auto;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .order-now {
+        font-family: 'Baloo 2', cursive;
+        border-radius: 26px;
+        background-color: red;
+        color: aliceblue;
+        padding: 9px 60px;
+        border: 1px white solid;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    .choose_enjoy {
+        /* font-family: 'Baloo 2', cursive; */
+        font-size: 40px;
+        /* font-weight: bold; */
+        font-family: 'Bubblegum Sans', cursive;
+
+    }
+
+    .mobile_tab {
+        display: none;
+    }
+
+    .font {
+        font-size: 20px;
+    }
+
+    .f_c {
+        font-size: 30px;
+    }
+
+    .card_text {
+        font-size: 15px;
+        font-family: 'Baloo 2', cursive;
+    }
+    .card_e{
+        height: 32vh;
+    }
+
+}

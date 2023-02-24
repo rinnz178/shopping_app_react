@@ -1,0 +1,85 @@
+.cate:hover {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+    /* transition: 0.1s; */
+}
+
+.d_font{
+  font-family: 'Baloo 2',cursive,
+}
+
+.shop_cart{
+    font-size: 20px;
+    width: 3.5vw;
+    margin-right: 6px;
+    background-color: red;
+    border:none;
+    padding: 10px;
+    border-radius:20px;
+    color: white;
+}
+
+.shop_cart:hover {
+    font-size: 18px;
+    margin-right: 6px;
+    background-color: rgb(255, 94, 94);
+    border:none;
+    padding: 10px;
+    /* border-radius:px; */
+    color: white;
+    transition: 0.7s;
+    width: 10vw;
+    /* transition-delay: 0.2s; */
+}
+
+.bg_p{
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    margin: 7px;
+  
+   
+}
+.bg_p:hover{
+    background-color: pink;
+    border-radius: 13px;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 990px) {
+    .category{
+        display: none;
+        font-size: 20px
+    };
+
+  }
+
+  .btn {
+    border-radius: 30px;
+    
+  }
+  .card{
+    border-radius: 20px;
+    /* border-color: red; */
+  }
+  .card:hover{
+    border-radius: 20px;
+    border-color: red;
+    transition-duration: 0.3s;
+    border-width: 1px;
+    box-shadow: 0px 5px 5px rgb(255, 216, 216);
+
+  }
+  .cart_s{
+    color: rgb(255, 255, 255);
+    padding: 8px 12px ;
+    background-color: red;
+    border-radius: 20px;
+  }
+  .cart_s:hover {
+    color:'red';
+    cursor: pointer;
+    background-color: rgb(255, 73, 73);
+    font-size: 15px;
+    transition: 0.4s;
+}

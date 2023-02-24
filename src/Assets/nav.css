@@ -1,0 +1,139 @@
+.logo {
+    font-family: 'Itim', cursive;
+    color: 'red';
+}
+
+.header_text {
+    font-family: 'Baloo 2', cursive;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+.header {
+    background-color: #ff001e;
+    height: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Baloo 2', cursive;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+#hov:hover {
+    color: red;
+    background-color: #fff6f7;
+    border-radius: 20px;
+}
+
+.login_btn {
+    width: 10vw;
+    background-color: white;
+    color: rgb(255, 0, 0);
+    border-width: 1.5px;
+    border-color: red;
+}
+
+.login_btn:hover {
+    background-color: #ff001e;
+    color: white;
+    border-color: #ff001e;
+}
+
+.txt{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    #mobile_nav {
+        display: none;
+    }
+    #pc {
+        text-decoration: none;
+    }
+
+    #sp_cart:hover {
+        color: red;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+/* @media screen and (max-width: 480px) {
+    #pc_nav {
+        display: none;
+    }
+
+    #mobile_nav {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .header {
+       font-size: 14px;
+
+    }
+
+} */
+
+@media only screen and (max-width: 600px) {
+    #pc_nav {
+        display: none;
+    }
+
+    #mobile_nav {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .header {
+       font-size: 14px;
+
+    }
+
+}
+@media only screen and (min-width: 600px) {
+    /* #pc_nav {
+        display: none;
+    } */
+
+    #mobile_nav {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .header {
+       font-size: 14px;
+
+    }
+
+}
+@media only screen and (max-width: 767) {
+    #mobile_nav {
+        display: none;
+    }
+
+    #mobile_nav {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .header {
+       font-size: 14px;
+
+    }
+
+}
